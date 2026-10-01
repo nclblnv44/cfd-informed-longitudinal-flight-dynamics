@@ -7,3 +7,4 @@
 *.txt text eol=lf
 *.csv text eol=lf
 *.json text eol=lf
+/data/cfd_results.csv binary
