@@ -1,0 +1,24 @@
+CONFRONTO PORTANZA LINEARE E CFD NON LINEARE
+Ala finita: alpha = alpha_eff + CL/(pi*e*AR).
+cd e cm restano valutati all'angolo geometrico per entrambi i modelli.
+Impulso relativo: -0.5 deg tra 2 e 2.5 s; osservazione 20 s.
+Errore massimo relazione implicita: 2.220e-16
+Differenza CL_CFD-CL_lineare nel dominio [-4, 12] deg: min -0.007819, max +0.000278
+Max differenza fra Delta alpha CFD e lineare: 0.000222064 deg
+
+Modello  alpha_trim  delta_e_trim  T_trim     max|dAlpha|  max|q|     max|dV|   dH(20s)
+         deg         deg           N          deg          deg/s      m/s       m
+linear     3.572781     -4.821444  330.350994     0.346727   1.639474   0.306579  -1.275307
+cfd        3.569632     -4.817190  330.332486     0.346948   1.639197   0.306036  -1.273673
+
+Controlli e autovalori locali:
+linear: L-W=+3.387e-09 N, M=+1.760e-13 N*m, tenuta=1.739e-10, raccordo=0.000e+00
+  lambda=-0.007106227 +0.237723781i [1/s]
+  lambda=-0.007106227 -0.237723781i [1/s]
+  lambda=-3.257524043 +5.917321103i [1/s]
+  lambda=-3.257524043 -5.917321103i [1/s]
+cfd: L-W=+0.000e+00 N, M=+3.519e-14 N*m, tenuta=1.062e-17, raccordo=0.000e+00
+  lambda=-0.007109668 +0.237771587i [1/s]
+  lambda=-0.007109668 -0.237771587i [1/s]
+  lambda=-3.254556114 +5.917402143i [1/s]
+  lambda=-3.254556114 -5.917402143i [1/s]

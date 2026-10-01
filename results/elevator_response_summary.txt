@@ -1,0 +1,31 @@
+ANALISI DELLA RISPOSTA ALL'IMPULSO
+Fattore q_pitch della coda: 1.000
+Iyy: 1000.0 kg*m^2
+Durata analizzata: 20.00 s
+Errore V prima dell'impulso: 1.435296e-12 m/s
+Errore alpha prima dell'impulso: 7.673862e-13 deg
+Prima velocita di beccheggio dopo il comando: +0.002877 deg/s
+
+Scostamenti finali:
+V: +0.252961433 m/s
+alpha: -0.007248454 deg
+theta: -0.197107256 deg
+gamma: -0.189858802 deg
+q_pitch: +0.082125612 deg/s
+h: -1.275307021 m
+
+Massimi assoluti dopo il ritorno al trim (2.5-5.5 s):
+alpha: 0.346726506 deg
+q_pitch: 1.122235871 deg/s
+
+Massimi assoluti negli ultimi 5 s:
+alpha: 0.007248454 deg
+q_pitch: 0.082125612 deg/s
+
+Autovalori del modello linearizzato al trim [1/s]:
+-0.007106227 +0.237723781i
+-0.007106227 -0.237723781i
+-3.257524043 +5.917321103i
+-3.257524043 -5.917321103i
+Modo 1: periodo 1.061829 s, tempo di decadimento e-fold 0.306982 s
+Modo 2: periodo 26.430613 s, tempo di decadimento e-fold 140.721646 s

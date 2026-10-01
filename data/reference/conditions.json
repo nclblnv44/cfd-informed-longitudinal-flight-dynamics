@@ -1,0 +1,13 @@
+{
+  "reynolds": 6000000.0,
+  "mach": 0.15,
+  "temperature": 300.0,
+  "viscosity": 1.846e-05,
+  "density": 2.1273943268190743,
+  "velocity": 52.0636905926184,
+  "pressure": 183195.5458579901,
+  "gas_constant": 287.0421396862957,
+  "gamma": 1.3990088734067945,
+  "turbulent_intensity_fraction": 0.00052,
+  "turbulent_viscosity_ratio": 0.009
+}

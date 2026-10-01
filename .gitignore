@@ -1,0 +1,21 @@
+# Local project context and historical material
+/AGENTS.md
+/Apri-Codex.cmd
+/archive/
+/images/
+/docs/STATO_PROGETTO.md
+/docs/VERIFICA_RIORGANIZZAZIONE.md
+/data/reference/ladson.dat
+/data/reference/validation_comparison.csv
+
+# Regenerated MATLAB data and local logs
+/data/*.mat
+/results/*.mat
+*.asv
+*.log
+*.tmp
+*.zip
+slprj/
+*.slxc
+.DS_Store
+Thumbs.db
